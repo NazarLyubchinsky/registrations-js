@@ -1,0 +1,73 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	form {
+		display: flex;
+		flex-direction: column;
+		margin-top: 5%;
+		padding: 50px;
+		border: 1px solid rgba(30, 49, 115, 0.3);
+		border-radius: 10px;
+	}
+	.registration-choice {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #5b8ca5;
+		border-radius: 48px;
+		width: 416px;
+		height: 48px;
+	}
+	.btn-choise + .btn-choise {
+		margin-left: 5px;
+	}
+	button {
+		width: 203px;
+		height: 44px;
+		border: solid 0px;
+		border-radius: 48px;
+		cursor: pointer;
+	}
+	.selected {
+		background-color: #5b8ca5;
+	}
+
+	.registration-initials input,
+	#email,
+	#password,
+	#confirm-password {
+		margin-top: 3%;
+		width: 200px;
+		height: 44px;
+		border-radius: 10px;
+		border: 1px solid;
+		text-indent: 10px;
+	}
+	#email,
+	#password,
+	#confirm-password {
+		width: 410px;
+	}
+
+	.registr-btn {
+		color: aliceblue;
+		margin-top: 20px;
+		width: 416px;
+		height: 48px;
+		background: #1e3173;
+		opacity: 0.5;
+		border-radius: 24px;
+		border: none;
+	}
+	.active {
+		background-color: #1e3172;
+		opacity: 1;
+	}
+	.registration-log-in {
+		margin: 15px 0;
+	}
+	.log-in {
+		margin-left: 15px;
+	}
+}

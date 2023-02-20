@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<form class="registration">
+		<h1>Шукаєте роботу чи няню?</h1>
+		<div class="registration-choice">
+			<button class="btn-choise">Шукаю роботу</button>
+			<button class="btn-choise">Шукаю няню</button>
+
+		</div>
+		<div class="registration-initials">
+			<input type="text" id="name" class="input-choise" placeholder="name">
+			<input type="text" id="surname" class="input-choise" placeholder="lastname">
+		</div>
+		<input type="email" class="input-email" id="email" placeholder="e-mail">
+		<div class="registration__pass">
+			<input type="password" class="input-pass" id="password" placeholder="password">
+		</div>
+		<div class="registration__confirm-pass">
+			<input type="password" class="input-confirm" id="confirm-password" placeholder="Confirm password">
+			<div id="confirm-pass-error"></div>
+		</div>
+		<div class="registration__checkbox">
+			<input type="checkbox" class="checkbox" id="checkbox">
+			<label>Так, я розумію та погоджуюся з Умовами обслуговування,<br> включаючи <a href="#">Угоду
+					користувача</a> та <a href="#">Політику конфіденційності</a> </label>
+		</div>
+		<button onclick="user()" class="registr-btn" id="registr" type="submit">Зареєструватись</button>
+		<div class="registration-log-in">
+			<span>Вже зареєстровані?</span><a href="" class="log-in">Увійти</a>
+		</div>
+	</form>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
